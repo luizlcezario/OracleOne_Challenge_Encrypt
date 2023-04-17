@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 gloo = "0.8.0"
 yew = { version = "0.20.0", features = ["csr"] }
+stylist = "0.11"

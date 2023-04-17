@@ -1,7 +1,0 @@
-{
-	"rust-analyzer.linkedProjects": [
-		"./rust_front_end/Cargo.toml",
-		"./rust_front_end/Cargo.toml",
-		"./rust_front_end/Cargo.toml"
-	]
-}

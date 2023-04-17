@@ -1,7 +1,0 @@
-/home/luiz/Oracle/Challenges/TextDecode/rust_front_end/target/debug/deps/libproc_macro_error_attr-df76e1a76adee2ef.so: /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/lib.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/parse.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/settings.rs
-
-/home/luiz/Oracle/Challenges/TextDecode/rust_front_end/target/debug/deps/proc_macro_error_attr-df76e1a76adee2ef.d: /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/lib.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/parse.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/settings.rs
-
-/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/lib.rs:
-/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/parse.rs:
-/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro-error-attr-1.0.4/src/settings.rs:

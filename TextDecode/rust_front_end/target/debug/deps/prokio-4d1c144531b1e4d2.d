@@ -1,0 +1,13 @@
+/home/luiz/Oracle/Challenges/TextDecode/rust_front_end/target/debug/deps/prokio-4d1c144531b1e4d2.rmeta: /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/lib.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/fmt/mod.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/fmt/buffer.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/pinned.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/time.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/mod.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/time.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/local_worker.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/runtime.rs
+
+/home/luiz/Oracle/Challenges/TextDecode/rust_front_end/target/debug/deps/prokio-4d1c144531b1e4d2.d: /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/lib.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/fmt/mod.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/fmt/buffer.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/pinned.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/time.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/mod.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/time.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/local_worker.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/runtime.rs
+
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/lib.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/fmt/mod.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/fmt/buffer.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/pinned.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/time.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/mod.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/time.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/rt_tokio/local_worker.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/prokio-0.1.0/src/runtime.rs:

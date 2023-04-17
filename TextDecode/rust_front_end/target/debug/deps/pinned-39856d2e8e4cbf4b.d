@@ -1,0 +1,15 @@
+/home/luiz/Oracle/Challenges/TextDecode/rust_front_end/target/debug/deps/pinned-39856d2e8e4cbf4b.rmeta: /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/lib.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/barrier.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/cell.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/mpsc.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/oneshot.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/mod.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/error.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/read_guard.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/wakers.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/write_guard.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/utils.rs
+
+/home/luiz/Oracle/Challenges/TextDecode/rust_front_end/target/debug/deps/pinned-39856d2e8e4cbf4b.d: /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/lib.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/barrier.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/cell.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/mpsc.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/oneshot.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/mod.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/error.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/read_guard.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/wakers.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/write_guard.rs /home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/utils.rs
+
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/lib.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/barrier.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/cell.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/mpsc.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/oneshot.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/mod.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/error.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/read_guard.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/wakers.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/rwlock/write_guard.rs:
+/home/luiz/.cargo/registry/src/github.com-1ecc6299db9ec823/pinned-0.1.0/src/utils.rs:

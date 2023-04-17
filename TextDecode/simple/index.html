@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio 1</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<script src="./index.js"></script>
+	<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+<body >
+	<header><img src="./assets/logo.png" alt="logo Alura" class="logo"></header>
+	<main>
+		<div>
+			<div class="text">
+				<span class="textarea" role="textbox" contenteditable id="text_content"></span>
+				<span class="hit" id="hit">
+					<img src="./assets/hit.png" alt="hit">
+					Apenas letras minúsculas e sem acento.
+				</span>
+			</div>
+			<div class="btn-group">
+				<button type="button" onclick="crypt()" class="bt1">Criptografar</button>
+				<button type="button" onclick="deCrypt()" class="bt2">Descriptografar</button>
+			</div>
+		</div>
+		<div class="Result" id="Result"> 
+			<div id="Before">
+				<img src="./assets/nothing_found.svg" alt="Nothing found">
+				<h2>Nenhuma mensagem encontrada</h2>
+				<p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+			</div>
+			<div class="hide res_box" id="Res">
+				<p class="response"  id="response_text">
+					asdasd tersda treasd zxcasd  asda asdqwe asdqwe 
+				</p>
+				<button class="bt2" onclick="copy()"> Copiar</button>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

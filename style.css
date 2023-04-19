@@ -153,6 +153,17 @@ main {
 	display: block;
 }
 
+footer {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	color: #0A3871;
+	text-decoration:none;
+}
+
 @media (min-width: 600px) {
 	main {
 		flex-direction: row;

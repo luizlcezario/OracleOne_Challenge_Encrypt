@@ -44,7 +44,7 @@ pub fn result_field(props: &Props) -> Html {
 			</div>
 		} else {
 			<div class={stylecheat}>
-				<img src="/assets/background.png" />
+				<img src="assets/background.png" />
 				<h1>{"Nenhuma mensagem encontrada"}</h1>
 				<p> {"Digite um texto que você deseja criptografar ou descriptografar."} </p>
 			</div>

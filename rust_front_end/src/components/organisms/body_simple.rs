@@ -1,7 +1,8 @@
 use aho_corasick::AhoCorasick;
+use gloo::console::log;
 use stylist::{yew::styled_component, style};
 use yew::prelude::*;
-
+use regex::Regex;
 use crate::components::molecules::{custom_form::{CustomForm, State, Crypt}, result_field::ResultField};
 
 #[derive(PartialEq, Default, Clone, Copy)]
@@ -9,7 +10,6 @@ pub enum Status{
 	#[default]
 	OK,
 	ERROR,
-	WARN,
 	INFO,
 }
 #[derive(Default)]
@@ -41,13 +41,19 @@ impl Response {
 
 	fn validation(&mut self) {
 		if self.text == "" {
-			self.status == Status::INFO;
+			self.status = Status::INFO;
 		}
 		else
 		{
-			let regex = "/[A-Z\u{00C0}-\u{024F}]/g";
-			let re = Regex::new(r"^\d{4}-\d{2}-\d{2}$").unwrap();
-			self.status = Status::OK;
+			let regex = r"[A-Z\u00C0-\u024F]";
+			let re = Regex::new(regex).unwrap();
+			let result = re.is_match(&self.text);
+			if result {
+				self.status = Status::ERROR;
+			}
+			else {
+				self.status = Status::OK;
+			}
 		}
 	}
 }
@@ -91,10 +97,10 @@ pub fn body_simple() -> Html {
 	html! {
 		<div class={stylecheat}>
 			<div>
-				<CustomForm onsubmit={onsubmit} />
+				<CustomForm onsubmit={onsubmit} status={res_state.status.clone()} />
 			</div>
 			<div>
-				<ResultField response={res_state.response.clone()} status={res_state.status} />
+				<ResultField response={res_state.response.clone()} status={res_state.status.clone()} />
 			</div>
 		</div>
 	}

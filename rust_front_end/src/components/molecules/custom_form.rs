@@ -6,6 +6,7 @@ use web_sys::HtmlInputElement;
 use yew::{prelude::*, functional::use_state};
 use crate::components::atoms::text_field::TextField;
 use crate::components::atoms::custom_button::CustomButton;
+use crate::components::organisms::body_simple::Status;
 
 #[derive(Clone, Default, PartialEq, Debug)]
 pub enum Crypt {
@@ -23,6 +24,7 @@ pub struct State {
 #[derive(Properties, PartialEq)]
 pub struct Props {
 	pub onsubmit: Callback<State>,
+	pub status: Status,
 }
 
 #[styled_component(CustomForm)]
@@ -62,24 +64,38 @@ pub fn custom_form(props: &Props) -> Html {
 					onsubmit_handle.emit(state.deref().clone());
 				}
 		});
+		let stylecheat_error = style!(
+			r#"
+				span {
+					color: #d81d35;
+					font-size: 15px;
+				}
+				span img {
+					filter: hue-rotate(134deg) saturate(3) brightness(1.9) contrast(3);
+				}
+			"#).unwrap();
+		let stylecheat_ok = style!(
+				r#"
+				span {
+					color: #343A40;
+					background: transparent;
+				}
+				"#).unwrap();
 		let stylecheat = style!(
 			r#"
 				margin: 40px;
-				span {
-					font-size: 14px;
-					color: #343A40;
-				}
 				span img {
 					vertical-align: middle;
 					width: 16px;
 					margin-right: 5px;
 				}
 			"#).unwrap();
+			let status = props.status.clone();
 	html! {
 		<form  onsubmit={onsubmit}>
 			<div class={stylecheat}>
-				<TextField name="text_crypt" handle_change={text_onchange} />
-				<div>
+				<TextField name="text_crypt" handle_change={text_onchange} status={status} />
+				<div  class={if status == Status::ERROR {stylecheat_error} else {stylecheat_ok}}>
 					<span>
 						<img src="assets/icon.png" alt="info" />
 						{"Apenas letras minúsculas e sem acento."}

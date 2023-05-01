@@ -1,0 +1,45 @@
+{
+	// Use o IntelliSense para saber mais sobre os atributos possíveis.
+	// Focalizar para exibir as descrições dos atributos existentes.
+	// Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug executable 'rust_front_end'",
+			"cargo": {
+				"args": [
+					"build",
+					"--bin=rust_front_end",
+					"--package=rust_front_end"
+				],
+				"filter": {
+					"name": "rust_front_end",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug unit tests in executable 'rust_front_end'",
+			"cargo": {
+				"args": [
+					"test",
+					"--no-run",
+					"--bin=rust_front_end",
+					"--package=rust_front_end"
+				],
+				"filter": {
+					"name": "rust_front_end",
+					"kind": "bin"
+				}
+			},
+			"args": [],
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}

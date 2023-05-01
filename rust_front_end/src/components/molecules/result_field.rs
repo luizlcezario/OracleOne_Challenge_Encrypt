@@ -36,18 +36,17 @@ pub fn result_field(props: &Props) -> Html {
 				}
 			}
 		"#).unwrap();
-
 	html! {
 		<>
-		if props.response == "" {
+		if props.response != "" && props.status == Status::OK {
+			<div class={stylecheat}>
+				<h1>{props.response.clone()}</h1>
+			</div>
+		} else {
 			<div class={stylecheat}>
 				<img src="/assets/background.png" />
 				<h1>{"Nenhuma mensagem encontrada"}</h1>
 				<p> {"Digite um texto que você deseja criptografar ou descriptografar."} </p>
-			</div>
-		} else {
-			<div class={stylecheat}>
-				<h1>{props.response.clone()}</h1>
 			</div>
 		}
 		</>

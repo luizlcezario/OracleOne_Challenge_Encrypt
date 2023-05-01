@@ -14,7 +14,9 @@ pub fn navbar() -> Html {
 		"#).unwrap();
 	html! {
 		<header class={styles}>
-			<NavLogo logo="./assets/Logo.png" />
+			<a href="https://luizlcezario.github.io/OracleOne_Challenge_Encrypt/">
+				<NavLogo logo="./assets/Logo.png" />
+			</a>
 		</header>
 	}
 }

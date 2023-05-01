@@ -1,5 +1,4 @@
 use aho_corasick::AhoCorasick;
-use gloo::console::log;
 use stylist::{yew::styled_component, style};
 use yew::prelude::*;
 use regex::Regex;

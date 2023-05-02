@@ -42,7 +42,15 @@ to test this repository just access the pages:
 
 [version Javascript](https://luizlcezario.github.io/OracleOne_Challenge_Encrypt/)
 
+<center>
+<img src=".github/page1.png" width="500"/>
+</center>
+
 [version Rust](https://luizlcezario.github.io/OracleOne_Challenge_Encrypt/rust/)
+
+<center>
+<img src=".github/page2.png" width="500"/>
+</center>
 
 if you click in the logo in both pages you will change between then.
 

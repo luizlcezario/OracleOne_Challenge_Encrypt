@@ -13,7 +13,7 @@
   </a> 
 
   <a href="https://github.com/luizlcezario/OracleOne_Challenge_Encrypt/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/luizlcezariozario/get_next_line?color=0A3871&logo=github">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/luizlcezario/OracleOne_Challenge_Encrypt?color=0A3871&logo=github">
   </a>
 </p>
 
